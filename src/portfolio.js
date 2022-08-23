@@ -34,8 +34,7 @@ const socialMediaLinks = {
   gmail: "neeraj79108@gmail.com",
   instagram: "https://www.instagram.com/neeraj779_/",
   twitter: "https://twitter.com/neeraj_779",
-  stackoverflow: "https://stackoverflow.com/users/18689101/neeraj",
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
@@ -72,11 +71,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "reactjs",
@@ -123,20 +117,20 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Programming",
-      progressPercentage: "85%"
+      Stack: "C/C++",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Problem solving", //Insert stack or technology you have experience in
+      Stack: "Python", //Insert stack or technology you have experience in
       progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    }
+      Stack: "Java",
+      progressPercentage: "65%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -150,7 +144,7 @@ const workExperiences = {
       role: "Subject Matter Expert (SME)",
       company: "Chegg",
       companylogo: require("./assets/images/chegg_logo.png"),
-      date: "Oct 21 - Nov 2021",
+      date: "Oct 2021 - Nov 2021",
       descBullets: [
         "I was working as a Subject Matter Expert in Computer Science",
         "Solved approximately 100+ questions related to Data Structures and Algorithms and CS Subjects asked by students all across the globe.",
@@ -295,6 +289,17 @@ const achievementSection = {
         {
           name: "View Certifcate",
           url: "https://www.hackerrank.com/certificates/00a15769d2c0"
+        }
+      ]
+    },
+    {
+      title: "Machine Learning",
+      subtitle: "Completed Certifcation from Coursera for Machine Learning",
+      image: require("./assets/images/coursera_logo.png"),
+      footerLink: [
+        {
+          name: "View Certifcate",
+          url: "https://coursera.org/share/424b8e213456a824507b59cb26755f80"
         }
       ]
     }
