@@ -6,7 +6,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2500 // Set animation duration as per your animation
+  duration: 2200 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -313,8 +313,6 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "neeraj79108@gmail.com"
 };
-
-// Twitter Section
 
 export {
   illustration,
