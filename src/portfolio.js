@@ -1,53 +1,50 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; 
 
-// Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, 
   animation: splashAnimation,
-  duration: 2200 // Set animation duration as per your animation
+  duration: 2200 
 };
 
-// Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false 
 };
 
 const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji(
-    "I'm currently studying Electronics and Communication Engineering at Sathyabama Institute of Science and Technology. I'm on track for learning more about Cross-Platform Development, Data structures and Algorithms."
-  ),
+    "Currently an undergraduate at Sathyabama Institute of Science and Technology. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects."
+    ),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true 
 };
 
-// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/neeraj779",
-  linkedin: "https://www.linkedin.com/in/neeraj779/",
   gmail: "neeraj79108@gmail.com",
-  instagram: "https://www.instagram.com/neeraj779_/",
+  linkedin: "https://www.linkedin.com/in/neeraj779/",
   twitter: "https://twitter.com/neeraj_779",
+  instagram: "https://www.instagram.com/neeraj779_/",
+  telegram: "https://t.me/neeraj779",
   display: true
 };
 
-// Skills Section
 
 const skillsSection = {
   title: "Languages and Tools:",
   subTitle: "",
   skills: [],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
+    {
+      skillName: "C/C++",
+      fontAwesomeClassname: "fa-solid fa-c"
+    },
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
@@ -61,8 +58,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-git"
     },
     {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fa-brands fa-github"
+    },
+    {
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fa-brands fa-aws"
     },
     {
       skillName: "html-5",
@@ -71,6 +76,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Bootstap",
+      fontAwesomeClassname: "fa-brands fa-bootstrap"
     },
     {
       skillName: "reactjs",
@@ -88,7 +97,12 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    }
+    },
+   
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fa-brands fa-figma"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -114,7 +128,6 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
@@ -129,6 +142,10 @@ const techStack = {
     },
     {
       Stack: "Java",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Server Side Deployment",
       progressPercentage: "65%"
     },
   ],
@@ -155,28 +172,26 @@ const workExperiences = {
       role: "Goldman Sachs Engineering Virtual Program Internship",
       company: "Goldman Sachs",
       companylogo: require("./assets/images/Goldman_Sachs.png"),
-      date: "July 2nd, 2022",
+      date: "Jun 2022 - Jul 2022",
       descBullets: [
         "Implemented password encryption logic using Hashcat tool to secure the database.",
-        "solved the problem by using sha256 on the basis of database provided to avoid data breaches."
+        "Worked on solving the problem by using sha256 on the basis of the database provided to avoid data breaches."
       ]
     },
     {
       role: "J.P. Morgan Software Engineering Internship",
       company: "J.P. Morgan",
       companylogo: require("./assets/images/jp_logo.png"),
-      date: "July 24th, 2022",
+      date: "Jul 2022 - Aug 2022",
       descBullets: [
         "Worked on a stock price data feed for Financial Data",
         "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
-        " Displayed data visually for traders on the dashboard"
-      ]
+        "Displayed data visually for traders on the dashboard"
+      ],
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -186,30 +201,30 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Events that i have attended",
+  subtitle: "Amazon Web Services",
   projects: [
     {
-      projectName: "Saayahealth",
+      projectName: "AWS Builders Online Series",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Certificate",
+          url: "https://aws.amazon.com/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    // {
+    //   projectName: "Nextu",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://nextu.se/"
+    //     }
+    //   ]
+    // }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -229,7 +244,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certifcate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/kickstar'22.pdf"
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/kickstar'22.jpg"
         }
       ]
     },
@@ -300,6 +315,17 @@ const achievementSection = {
         {
           name: "View Certifcate",
           url: "https://coursera.org/share/424b8e213456a824507b59cb26755f80"
+        }
+      ]
+    },
+    {
+      title: "Amazon Web Services",
+      subtitle: "Attended AWS Builders Online Series",
+      image: require("./assets/images/amazon-web-services.png"),
+      footerLink: [
+        {
+          name: "View Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/amazon-web-services.png"
         }
       ]
     }

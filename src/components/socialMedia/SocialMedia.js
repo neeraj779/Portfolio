@@ -56,18 +56,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-facebook-f"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}
@@ -92,38 +80,26 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
+      {socialMediaLinks.telegram ? (
         <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
+          href={socialMediaLinks.telegram}
+          className="icon-button telegram"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <i className="fa-brands fa-telegram"></i>
           <span></span>
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
+      {socialMediaLinks.hackerrank ? (
         <a
-          href={socialMediaLinks.stackoverflow}
-          className="icon-button stack-overflow"
+          href={socialMediaLinks.hackerrank}
+          className="icon-button hackerrank"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.kaggle ? (
-        <a
-          href={socialMediaLinks.kaggle}
-          className="icon-button kaggle"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-kaggle"></i>
+          <i className="fab fa-hackerrank"></i>
           <span></span>
         </a>
       ) : null}
