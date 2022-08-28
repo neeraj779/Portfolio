@@ -1,28 +1,26 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
-
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, 
+  enabled: true,
   animation: splashAnimation,
-  duration: 2200 
+  duration: 2200
 };
 
 const illustration = {
-  animated: false 
+  animated: true
 };
 
 const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
-  subTitle: emoji(
-    "Currently an undergraduate at Sathyabama Institute of Science and Technology. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects."
-    ),
+  subTitle: emoji([
+    "currently a 3rd-year student at Sathyabama Institute of Science and Technology, undertaking my Bachelor in Electronics and Communications Engineering. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
+  ]),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
-  displayGreeting: true 
+  displayGreeting: true
 };
-
 
 const socialMediaLinks = {
   github: "https://github.com/neeraj779",
@@ -30,10 +28,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/neeraj779/",
   twitter: "https://twitter.com/neeraj_779",
   instagram: "https://www.instagram.com/neeraj779_/",
-  telegram: "https://t.me/neeraj779",
   display: true
 };
-
 
 const skillsSection = {
   title: "Languages and Tools:",
@@ -98,11 +94,11 @@ const skillsSection = {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-   
+
     {
       skillName: "figma",
       fontAwesomeClassname: "fa-brands fa-figma"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -128,7 +124,6 @@ const educationInfo = {
   ]
 };
 
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -142,12 +137,12 @@ const techStack = {
     },
     {
       Stack: "Java",
-      progressPercentage: "65%"
+      progressPercentage: "67%"
     },
     {
       Stack: "Server Side Deployment",
       progressPercentage: "65%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -187,11 +182,10 @@ const workExperiences = {
         "Worked on a stock price data feed for Financial Data",
         "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
         "Displayed data visually for traders on the dashboard"
-      ],
+      ]
     }
   ]
 };
-
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -214,7 +208,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
     // {
     //   projectName: "Nextu",
     //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
