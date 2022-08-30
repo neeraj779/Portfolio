@@ -144,10 +144,6 @@ const techStack = {
       progressPercentage: "85%"
     },
     {
-      Stack: "Git/GitHub",
-      progressPercentage: "85%"
-    },
-    {
       Stack: "Server Side Deployment",
       progressPercentage: "65%"
     }
@@ -335,6 +331,29 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const blogSection = {
+  title: "Blogs",
+  subtitle:
+    "With Love for Learning and Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "false", 
+  blogs: [
+    {
+      url: "https://medium.com/@neeraj779/how-to-set-up-django-nginx-and-gunicorn-on-ubuntu-22-04-52c3c2d375b4",
+      title: "How To Set Up Django Nginx, and Gunicorn on Ubuntu 22.04",
+      description:
+        "Django is a powerful web framework that can help you get your Python application or website off the ground. Django includes a simplified development server for testing your code locally, but for…"
+    },
+    {
+      url: "https://medium.com/@neeraj779/how-to-install-ubuntu-on-oracle-virtualbox-a8ea610c79aa",
+      title: "How to Install Ubuntu on Oracle VirtualBox",
+      description:
+        "Oracle VirtualBox is a cross-platform virtualization application. It installs on your existing Intel or AMD-based computers, whether they are running Windows, Mac, Linux, or Solaris operating…"
+    },
+  ],
+  display: true 
+};
+
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -353,6 +372,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  blogSection,
   achievementSection,
   contactInfo
 };
