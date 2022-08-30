@@ -140,6 +140,14 @@ const techStack = {
       progressPercentage: "67%"
     },
     {
+      Stack: "Git/GitHub",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Git/GitHub",
+      progressPercentage: "85%"
+    },
+    {
       Stack: "Server Side Deployment",
       progressPercentage: "65%"
     }
