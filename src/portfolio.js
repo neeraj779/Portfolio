@@ -100,13 +100,11 @@ const skillsSection = {
       fontAwesomeClassname: "fa-brands fa-figma"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Sathyabama University",
@@ -125,15 +123,15 @@ const educationInfo = {
 };
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
       Stack: "C/C++",
       progressPercentage: "80%"
     },
     {
-      Stack: "Python", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Python",
+      progressPercentage: "75%"
     },
     {
       Stack: "Java",
@@ -147,15 +145,45 @@ const techStack = {
       Stack: "Server Side Deployment",
       progressPercentage: "65%"
     }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  ]
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
+    {
+      role: "Python Backend Developer intern",
+      company: "SIMMI Foundation",
+      companylogo: require("./assets/images/simmi_logo.png"),
+      date: "Aug 2022 - Present",
+      descBullets: [
+        "Working on the development and testing of new system components/services, code and design reviews",
+        "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
+      ]
+    },
+    {
+      role: "Software Engineering",
+      company: "J.P. Morgan",
+      companylogo: require("./assets/images/jp_logo.png"),
+      date: "Jul 2022 - Aug 2022",
+      descBullets: [
+        "Worked on a stock price data feed for Financial Data",
+        "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
+        "Displayed data visually for traders on the dashboard"
+      ]
+    },
+    {
+      role: "Software Engineering",
+      company: "Goldman Sachs",
+      companylogo: require("./assets/images/Goldman_Sachs.png"),
+      date: "Jun 2022 - Jul 2022",
+      descBullets: [
+        "Implemented password encryption logic using Hashcat tool to secure the database.",
+        "Worked on solving the problem by using sha256 on the basis of the database provided to avoid data breaches."
+      ]
+    },
     {
       role: "Subject Matter Expert (SME)",
       company: "Chegg",
@@ -166,37 +194,14 @@ const workExperiences = {
         "Solved approximately 100+ questions related to Data Structures and Algorithms and CS Subjects asked by students all across the globe.",
         "Got around 50+ upvotes for answers from students."
       ]
-    },
-    {
-      role: "Goldman Sachs Engineering Virtual Program Internship",
-      company: "Goldman Sachs",
-      companylogo: require("./assets/images/Goldman_Sachs.png"),
-      date: "Jun 2022 - Jul 2022",
-      descBullets: [
-        "Implemented password encryption logic using Hashcat tool to secure the database.",
-        "Worked on solving the problem by using sha256 on the basis of the database provided to avoid data breaches."
-      ]
-    },
-    {
-      role: "J.P. Morgan Software Engineering Internship",
-      company: "J.P. Morgan",
-      companylogo: require("./assets/images/jp_logo.png"),
-      date: "Jul 2022 - Aug 2022",
-      descBullets: [
-        "Worked on a stock price data feed for Financial Data",
-        "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
-        "Displayed data visually for traders on the dashboard"
-      ]
     }
   ]
 };
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
-
-// Some big projects you have worked on
 
 const bigProjects = {
   title: "Events that i have attended",
@@ -210,24 +215,12 @@ const bigProjects = {
           name: "Certificate",
           url: "https://aws.amazon.com/"
         }
-        //  you can add extra buttons here.
+        //extra buttons here.
       ]
     }
-    // {
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "http://nextu.se/"
-    //     }
-    //   ]
-    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false
 };
-
-// Achievement Section
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -239,6 +232,7 @@ const achievementSection = {
       title: "Google Kickstart 2022",
       subtitle: "Global Rank 4888/14K in Google Kickstart Round D’22",
       image: require("./assets/images/google.png"),
+      imageAlt: "Google",
       footerLink: [
         {
           name: "View Certifcate",
@@ -251,6 +245,7 @@ const achievementSection = {
       subtitle:
         "won the best project in the Language 'C /C ++'in the event Techzamia",
       image: require("./assets/images/techzamia_logo.png"),
+      imageAlt: "Techzamia",
       footerLink: [
         {
           name: "View Certifcate",
@@ -263,6 +258,7 @@ const achievementSection = {
       subtitle:
         "Completed Certifcation from HackerRank for problem solving(Basic)",
       image: require("./assets/images/HackerRank_logo.png"),
+      imageAlt: "HackerRank",
       footerLink: [
         {
           name: "View Certifcate",
@@ -276,6 +272,7 @@ const achievementSection = {
       subtitle:
         "Completed Certifcation from HackerRank for Problem Solving (Intermediate)",
       image: require("./assets/images/HackerRank_logo.png"),
+      imageAlt: "Hackerrank",
       footerLink: [
         {
           name: "View Certifcate",
@@ -287,6 +284,7 @@ const achievementSection = {
       title: "Java",
       subtitle: "Completed Certifcation from HackerRank for Java",
       image: require("./assets/images/HackerRank_logo.png"),
+      imageAlt: "Hackerrank",
       footerLink: [
         {
           name: "View Certifcate",
@@ -298,6 +296,7 @@ const achievementSection = {
       title: "Python",
       subtitle: "Completed Certifcation from HackerRank for Python",
       image: require("./assets/images/HackerRank_logo.png"),
+      imageAlt: "Hackerrank",
       footerLink: [
         {
           name: "View Certifcate",
@@ -309,6 +308,7 @@ const achievementSection = {
       title: "Machine Learning",
       subtitle: "Completed Certifcation from Coursera for Machine Learning",
       image: require("./assets/images/coursera_logo.png"),
+      imageAlt: "Coursera",
       footerLink: [
         {
           name: "View Certifcate",
@@ -320,6 +320,7 @@ const achievementSection = {
       title: "Amazon Web Services",
       subtitle: "Attended AWS Builders Online Series",
       image: require("./assets/images/amazon-web-services.png"),
+      imageAlt: "AWS",
       footerLink: [
         {
           name: "View Certifcate",
@@ -328,31 +329,42 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Learning and Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "false", 
+  displayMediumBlogs: "false",
   blogs: [
     {
       url: "https://medium.com/@neeraj779/how-to-set-up-django-nginx-and-gunicorn-on-ubuntu-22-04-52c3c2d375b4",
       title: "How To Set Up Django Nginx, and Gunicorn on Ubuntu 22.04",
       description:
-        "Django is a powerful web framework that can help you get your Python application or website off the ground. Django includes a simplified development server for testing your code locally, but for…"
+        "Django is a powerful web framework that can help you get your Python application or website off the ground. Django includes a simplified development server for testing your code locally, but for for anything even slightly production related"
     },
     {
       url: "https://medium.com/@neeraj779/how-to-install-ubuntu-on-oracle-virtualbox-a8ea610c79aa",
       title: "How to Install Ubuntu on Oracle VirtualBox",
       description:
-        "Oracle VirtualBox is a cross-platform virtualization application. It installs on your existing Intel or AMD-based computers, whether they are running Windows, Mac, Linux, or Solaris operating…"
+        "Oracle VirtualBox is a cross-platform virtualization application. It installs on your existing Intel or AMD-based computers, whether they are running Windows, Mac or Linux operating systems. VirtualBox can create and run a “guest” operating system"
     },
+    {
+      url: "https://medium.com/@neeraj779/how-to-install-ubuntu-on-oracle-virtualbox-a8ea610c79aa",
+      title: "How to Change Screen Resolution of a Ubuntu VM in VirtualBox",
+      description:
+        "Before starting to change the resolution of a ubuntu VM we need to install the VirtualBox Guest Addition image. To install guest additional image in your Virtual Machine, Open the terminal of the operating system and execute the command provided below to install some necessary packages for installing Guest Addition Image..."
+    },
+    {
+      url: "https://medium.com/@neeraj779/how-to-change-screen-resolution-of-a-ubuntu-vm-in-virtualbox-8c7d43119884",
+      title: "How to Create EC2 Instance in AWS",
+      description:
+        "An EC2 instance is a virtual server. It stands for Elastic Compute Cloud. It is a web service where an AWS subscriber can request and provision a compute server in the AWS cloud. An on-demand EC2 instance is an offering from AWS where the subscriber/user can rent the virtual server per hour and use it to deploy his/her own applications."
+    }
   ],
-  display: true 
+  display: true
 };
-
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),

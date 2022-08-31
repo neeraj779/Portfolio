@@ -26,7 +26,7 @@ export default function Top() {
   // When the user clicks on the button, scroll to the top of the document
   return (
     <button onClick={TopEvent} id="topButton" title="Go to top">
-      <i class="fa-solid fa-angles-up"></i>
+      <i class="fa-solid fa-angle-up"></i>
     </button>
   );
 }
