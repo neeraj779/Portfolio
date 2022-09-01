@@ -1,0 +1,118 @@
+{
+  "data": {
+    "user": {
+      "name": "Neeraj",
+      "bio": "20 | Turning caffeine and pizza into code! 💭",
+      "isHireable": true,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85169876?u=4caec8ee92b61ddb0afed71fe5bbd5dc47c6013a&v=4",
+      "location": "Chennai, India",
+      "pinnedItems": {
+        "totalCount": 9,
+        "edges": [
+          {
+            "node": {
+              "name": "JPMorgan Chase Virtual Software Engineering Project",
+              "description": "🔥 This repository contains submitted patch files of three tasks assigned by JPMorgan Chase & Co. Software Engineering Virtual Internship",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/JPMorgan-Chase-Virtual-Software-Engineering-Internship",
+              "id": "R_kgDOHxLzzw",
+              "diskUsage": 12253,
+              "primaryLanguage": {
+                "name": "Python, C/C++",
+                "color": "#3572A5"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "Goldman Sachs Engineering Virtual Program Project",
+              "description": "🚀 This repository contains submitted files of tasks assigned by Goldman Sachs in Software Engineering Virtual Internship",
+              "stargazers": {"totalCount": 3},
+              "url": "https://github.com/neeraj779/Goldman-Sachs-Engineering-Virtual-Program",
+              "id": "R_kgDOHmHQSg",
+              "diskUsage": 301,
+              "primaryLanguage": {"name": "Hashcat Tool", "color": "#45ADA8"}
+            }
+          },
+          {
+            "node": {
+              "name": "News and Blogs",
+              "description": "📰 A web application in Python using Django web development framework. Logged-in users can view News clips cards.",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/NewsAndBlogs",
+              "id": "R_kgDOHmHQSh",
+              "diskUsage": 1330,
+              "primaryLanguage": {"name": "Python, Django", "color": "#45ADA8"}
+            }
+          },
+          {
+            "node": {
+              "name": "Student DBMS",
+              "description": "🤖 A Mini Project on Student Database Management System",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/Student-DBMS",
+              "id": "R_kgDOHG36uA",
+              "diskUsage": 16346,
+              "primaryLanguage": {"name": "C", "color": "#F7F6FB"}
+            }
+          },
+          {
+            "node": {
+              "name": "Flappy Bird Game",
+              "description": "🕊️ A Flappy Bird game written in Python.",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/FlappyBird",
+              "id": "MDEwOlJlcG9zaXRvcnkzNzkxNzc5MzE=",
+              "diskUsage": 33398,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          },
+          {
+            "node": {
+              "name": "Text Editor",
+              "description": "📝 The text editor built using python and tkinter GUI library . This computer software is cross platform and contains all necessary features that every text editor must have.",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/TextEditor",
+              "id": "MDEwOlJlcG9zaXRvcnkzODA1NjM3Njk=",
+              "diskUsage": 24875,
+              "primaryLanguage": {"name": "Python", "color": "#CAFFBF"}
+            }
+          },
+          {
+            "node": {
+              "name": "Ecommerce Website",
+              "description": "A basic e-commerce website in Django. This project includes storing products in the database and show them on the website.",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/EcommerceWebsite",
+              "id": "MDEwOlJlcG9zaXRvcnkzODA1NjM3Njn=",
+              "diskUsage": 2970,
+              "primaryLanguage": {"name": "Python, Django", "color": "#90F1EF"}
+            }
+          },
+          {
+            "node": {
+              "name": "Virtual Assistant",
+              "description": "🤖 Alexa like virtual assistant written in Python which uses Google's speech-to-text library to process voice input.",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/VirtualAssistant",
+              "id": "MDEwOlJlcG9zaXRvcnkzNzg2MDIwOTc=",
+              "diskUsage": 719,
+              "primaryLanguage": {"name": "Python", "color": "#F67280"}
+            }
+          },
+          {
+            "node": {
+              "name": "Text Utils",
+              "description": "A tool for performing various changes in the given text made using Python, Django.",
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/neeraj779/TextUtils",
+              "id": "MDEwOlJlcG9zaXRvcnkzNzg2MDIwOTc=",
+              "diskUsage": 12193,
+              "primaryLanguage": {"name": "Python, Django", "color": "#F9D423"}
+            }
+          }
+        ]
+      }
+    }
+  }
+}
