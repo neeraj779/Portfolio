@@ -148,8 +148,6 @@ const techStack = {
   ]
 };
 
-// Work experience section
-
 const workExperiences = {
   display: true,
   experience: [
@@ -161,6 +159,12 @@ const workExperiences = {
       descBullets: [
         "Working on the development and testing of new system components/services, code and design reviews",
         "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
+      ],
+      footerLink: [
+        {
+          name: "Offer letter",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/simmi_foundation_OL.jpg"
+        }
       ]
     },
     {
@@ -172,6 +176,12 @@ const workExperiences = {
         "Worked on a stock price data feed for Financial Data",
         "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
         "Displayed data visually for traders on the dashboard"
+      ],
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/J.P.Morgan-completion-certificate.jpg"
+        }
       ]
     },
     {
@@ -182,6 +192,12 @@ const workExperiences = {
       descBullets: [
         "Implemented password encryption logic using Hashcat tool to secure the database.",
         "Worked on solving the problem by using sha256 on the basis of the database provided to avoid data breaches."
+      ],
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Goldman-Sachs-completion-certificate.jpg"
+        }
       ]
     },
     {
@@ -193,6 +209,12 @@ const workExperiences = {
         "I was working as a Subject Matter Expert in Computer Science",
         "Solved approximately 100+ questions related to Data Structures and Algorithms and CS Subjects asked by students all across the globe.",
         "Got around 50+ upvotes for answers from students."
+      ],
+      footerLink: [
+        {
+          name: "Work Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Chegg-Work-Certificate.jpg"
+        }
       ]
     }
   ]
@@ -215,7 +237,6 @@ const bigProjects = {
           name: "Certificate",
           url: "https://aws.amazon.com/"
         }
-        //extra buttons here.
       ]
     }
   ],
@@ -235,7 +256,7 @@ const achievementSection = {
       imageAlt: "Google",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/kickstar'22.jpg"
         }
       ]
@@ -248,8 +269,12 @@ const achievementSection = {
       imageAlt: "Techzamia",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Techzamia.png"
+        },
+        {
+          name: "Project",
+          url: "https://github.com/neeraj779/Student-DBMS"
         }
       ]
     },
@@ -261,7 +286,7 @@ const achievementSection = {
       imageAlt: "HackerRank",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://www.hackerrank.com/certificates/9e703de22020"
         }
       ]
@@ -275,8 +300,20 @@ const achievementSection = {
       imageAlt: "Hackerrank",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://www.hackerrank.com/certificates/2c16e99e8c47"
+        }
+      ]
+    },
+    {
+      title: "Machine Learning",
+      subtitle: "Completed Certifcation from Coursera for Machine Learning",
+      image: require("./assets/images/coursera_logo.png"),
+      imageAlt: "Coursera",
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://coursera.org/share/424b8e213456a824507b59cb26755f80"
         }
       ]
     },
@@ -287,7 +324,7 @@ const achievementSection = {
       imageAlt: "Hackerrank",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://www.hackerrank.com/certificates/ccbe3d458054"
         }
       ]
@@ -299,20 +336,8 @@ const achievementSection = {
       imageAlt: "Hackerrank",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://www.hackerrank.com/certificates/00a15769d2c0"
-        }
-      ]
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "Completed Certifcation from Coursera for Machine Learning",
-      image: require("./assets/images/coursera_logo.png"),
-      imageAlt: "Coursera",
-      footerLink: [
-        {
-          name: "View Certifcate",
-          url: "https://coursera.org/share/424b8e213456a824507b59cb26755f80"
         }
       ]
     },
@@ -323,7 +348,7 @@ const achievementSection = {
       imageAlt: "AWS",
       footerLink: [
         {
-          name: "View Certifcate",
+          name: "Certifcate",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/amazon-web-services.png"
         }
       ]
@@ -351,13 +376,13 @@ const blogSection = {
         "Oracle VirtualBox is a cross-platform virtualization application. It installs on your existing Intel or AMD-based computers, whether they are running Windows, Mac or Linux operating systems. VirtualBox can create and run a “guest” operating system"
     },
     {
-      url: "https://medium.com/@neeraj779/how-to-install-ubuntu-on-oracle-virtualbox-a8ea610c79aa",
+      url: "https://medium.com/@neeraj779/how-to-change-screen-resolution-of-a-ubuntu-vm-in-virtualbox-8c7d43119884",
       title: "How to Change Screen Resolution of a Ubuntu VM in VirtualBox",
       description:
         "Before starting to change the resolution of a ubuntu VM we need to install the VirtualBox Guest Addition image. To install guest additional image in your Virtual Machine, Open the terminal of the operating system and execute the command provided below to install some necessary packages for installing Guest Addition Image..."
     },
     {
-      url: "https://medium.com/@neeraj779/how-to-change-screen-resolution-of-a-ubuntu-vm-in-virtualbox-8c7d43119884",
+      url: "https://medium.com/@neeraj779/how-to-create-ec2-instance-in-aws-64592392ffcb",
       title: "How to Create EC2 Instance in AWS",
       description:
         "An EC2 instance is a virtual server. It stands for Elastic Compute Cloud. It is a web service where an AWS subscriber can request and provision a compute server in the AWS cloud. An on-demand EC2 instance is an offering from AWS where the subscriber/user can rent the virtual server per hour and use it to deploy his/her own applications."
@@ -367,10 +392,8 @@ const blogSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "neeraj79108@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for all."
 };
 
 export {
