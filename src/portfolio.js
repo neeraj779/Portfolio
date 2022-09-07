@@ -152,7 +152,24 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Python Backend Developer intern",
+      role: "Software Development Intern",
+      company: "IIT Bombay",
+      companylogo: require("./assets/images/IITB_logo.png"),
+      date: "Aug 2022 - Present",
+      descBullets: [
+        "Working on the development and testing of new system components/services, code and design reviews",
+        "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
+      ],
+      footerLink: [
+        {
+          name: "Offer letter",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/simmi_foundation_OL.jpg"
+        }
+      ]
+    },
+
+    {
+      role: "Backend Development Intern",
       company: "SIMMI Foundation",
       companylogo: require("./assets/images/simmi_logo.png"),
       date: "Aug 2022 - Present",
@@ -167,39 +184,7 @@ const workExperiences = {
         }
       ]
     },
-    {
-      role: "Software Engineering",
-      company: "J.P. Morgan",
-      companylogo: require("./assets/images/jp_logo.png"),
-      date: "Jul 2022 - Aug 2022",
-      descBullets: [
-        "Worked on a stock price data feed for Financial Data",
-        "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
-        "Displayed data visually for traders on the dashboard"
-      ],
-      footerLink: [
-        {
-          name: "Certifcate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/J.P.Morgan-completion-certificate.jpg"
-        }
-      ]
-    },
-    {
-      role: "Software Engineering",
-      company: "Goldman Sachs",
-      companylogo: require("./assets/images/Goldman_Sachs.png"),
-      date: "Jun 2022 - Jul 2022",
-      descBullets: [
-        "Implemented password encryption logic using Hashcat tool to secure the database.",
-        "Worked on solving the problem by using sha256 on the basis of the database provided to avoid data breaches."
-      ],
-      footerLink: [
-        {
-          name: "Certifcate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Goldman-Sachs-completion-certificate.jpg"
-        }
-      ]
-    },
+    
     {
       role: "Subject Matter Expert (SME)",
       company: "Chegg",
@@ -214,6 +199,74 @@ const workExperiences = {
         {
           name: "Work Certifcate",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Chegg-Work-Certificate.jpg"
+        }
+      ]
+    }
+  ]
+};
+
+const virtualExperiences = {
+  display: true,
+  experience: [
+    {
+      role: "Developer Virtual Experience Program",
+      company: "Accenture",
+      companylogo: require("./assets/images/accenture-logo.png"),
+      date: "Sep 2022 - Aug 2022",
+      descBullets: [
+        "Design changes to an existing architecture, Scale on-premise system infrastructure to the cloud",
+        "Security maturity assessment 2. IAM policies and permissions",
+        "Shaping the Problem. Data and privacy protection",
+      ],
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/accenture_certificate.jpg"
+        },
+        {
+          name: "Project",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/accenture_certificate.jpg"
+        }
+      ]
+    },
+    {
+      role: "Software Engineering Virtual Experience Program",
+      company: "J.P. Morgan",
+      companylogo: require("./assets/images/jp_logo.png"),
+      date: "Jul 2022 - Aug 2022",
+      descBullets: [
+        "Worked on a stock price data feed for Financial Data",
+        "Worked With JPMorgan Chase frameworks and tools and Implemented the perspective open source code in preparation for data visualization using React js and TypeScript",
+        "Displayed data visually for traders on the dashboard"
+      ],
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/J.P.Morgan-completion-certificate.jpg"
+        },
+        {
+          name: "Project",
+          url: "https://github.com/neeraj779/JPMorgan-Chase-Virtual-Software-Engineering-Internship"
+        }
+      ]
+    },
+    {
+      role: "Software Engineering Virtual Experience Program",
+      company: "Goldman Sachs",
+      companylogo: require("./assets/images/Goldman_Sachs.png"),
+      date: "Jun 2022 - Jul 2022",
+      descBullets: [
+        "Implemented password encryption logic using Hashcat tool to secure the database.",
+        "Worked on solving the problem by using sha256 on the basis of the database provided to avoid data breaches."
+      ],
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Goldman-Sachs-completion-certificate.jpg"
+        },
+        {
+          name: "Project",
+          url: "https://github.com/neeraj779/Goldman-Sachs-Engineering-Virtual-Program"
         }
       ]
     }
@@ -405,6 +458,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  virtualExperiences,
   openSource,
   bigProjects,
   blogSection,
