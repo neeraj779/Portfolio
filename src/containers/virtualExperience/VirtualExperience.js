@@ -13,7 +13,27 @@ export default function VirtualExperience() {
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="virtualExperience">
             <div>
-              <h1 className="experience-heading">Projects</h1>
+              <div className="vexperience-header">
+                <h1
+                  className={
+                    isDark
+                      ? "dark-mode heading vexperience-heading"
+                      : "headingvexperience-heading"
+                  }
+                >
+                  Big Projects
+                </h1>
+                <p
+                  className={
+                    isDark
+                      ? "dark-mode subTitle vexperience-subtitle"
+                      : "subTitle vexperience-subtitle"
+                  }
+                >
+                  some companies that i have completed online virtual experience
+                  program with are listed below.
+                </p>
+              </div>
               <div className="experience-cards-div">
                 {virtualExperiences.experience.map((card, i) => {
                   return (

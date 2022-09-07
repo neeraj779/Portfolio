@@ -8,7 +8,7 @@ const splashScreen = {
 };
 
 const illustration = {
-  animated: true
+  animated: false
 };
 
 const greeting = {
@@ -108,42 +108,16 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sathyabama University",
-      logo: require("./assets/images/sist_logo.png"),
+      logo: require("./assets/images/sistLogo.png"),
       subHeader: "B.E. in Electronics and Communications Engineering",
       duration: "2020 - Present | Chennai, India"
     },
 
     {
       schoolName: "Govt. Boys Sr. Sec. School",
-      logo: require("./assets/images/gbsss_logo.jpg"),
+      logo: require("./assets/images/gbsssLogo.jpg"),
       subHeader: "Intermediate | Science",
       duration: "2018 - 2020 | CBSE | Delhi, India"
-    }
-  ]
-};
-
-const techStack = {
-  viewSkillBars: true,
-  experience: [
-    {
-      Stack: "C/C++",
-      progressPercentage: "80%"
-    },
-    {
-      Stack: "Python",
-      progressPercentage: "75%"
-    },
-    {
-      Stack: "Java",
-      progressPercentage: "67%"
-    },
-    {
-      Stack: "Git/GitHub",
-      progressPercentage: "85%"
-    },
-    {
-      Stack: "Server Side Deployment",
-      progressPercentage: "65%"
     }
   ]
 };
@@ -154,10 +128,10 @@ const workExperiences = {
     {
       role: "Software Development Intern",
       company: "IIT Bombay",
-      companylogo: require("./assets/images/IITB_logo.png"),
+      companylogo: require("./assets/images/iitbLogo.png"),
       date: "Aug 2022 - Present",
       descBullets: [
-        "Working on the development and testing of new system components/services, code and design reviews",
+        "Working on development and testing of new system components/services, code and design reviews",
         "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
       ],
       footerLink: [
@@ -171,10 +145,10 @@ const workExperiences = {
     {
       role: "Backend Development Intern",
       company: "SIMMI Foundation",
-      companylogo: require("./assets/images/simmi_logo.png"),
+      companylogo: require("./assets/images/simmiLogo.png"),
       date: "Aug 2022 - Present",
       descBullets: [
-        "Working on the development and testing of new system components/services, code and design reviews",
+        "Working on development and testing of new system components/services, code and design reviews",
         "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
       ],
       footerLink: [
@@ -188,7 +162,7 @@ const workExperiences = {
     {
       role: "Subject Matter Expert (SME)",
       company: "Chegg",
-      companylogo: require("./assets/images/chegg_logo.png"),
+      companylogo: require("./assets/images/cheggLogo.png"),
       date: "Oct 2021 - Nov 2021",
       descBullets: [
         "I was working as a Subject Matter Expert in Computer Science",
@@ -211,7 +185,7 @@ const virtualExperiences = {
     {
       role: "Developer Virtual Experience Program",
       company: "Accenture",
-      companylogo: require("./assets/images/accenture-logo.png"),
+      companylogo: require("./assets/images/accentureLogo.png"),
       date: "Sep 2022 - Aug 2022",
       descBullets: [
         "Design changes to an existing architecture, Scale on-premise system infrastructure to the cloud",
@@ -232,7 +206,7 @@ const virtualExperiences = {
     {
       role: "Software Engineering Virtual Experience Program",
       company: "J.P. Morgan",
-      companylogo: require("./assets/images/jp_logo.png"),
+      companylogo: require("./assets/images/jpMorganLogo.png"),
       date: "Jul 2022 - Aug 2022",
       descBullets: [
         "Worked on a stock price data feed for Financial Data",
@@ -253,7 +227,7 @@ const virtualExperiences = {
     {
       role: "Software Engineering Virtual Experience Program",
       company: "Goldman Sachs",
-      companylogo: require("./assets/images/Goldman_Sachs.png"),
+      companylogo: require("./assets/images/goldmanSachsLogo.png"),
       date: "Jun 2022 - Jul 2022",
       descBullets: [
         "Implemented password encryption logic using Hashcat tool to secure the database.",
@@ -278,24 +252,6 @@ const openSource = {
   display: true
 };
 
-const bigProjects = {
-  title: "Events that i have attended",
-  subtitle: "Amazon Web Services",
-  projects: [
-    {
-      projectName: "AWS Builders Online Series",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://aws.amazon.com/"
-        }
-      ]
-    }
-  ],
-  display: false
-};
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -305,7 +261,7 @@ const achievementSection = {
     {
       title: "Google Kickstart 2022",
       subtitle: "Global Rank 4888/14K in Google Kickstart Round D’22",
-      image: require("./assets/images/google.png"),
+      image: require("./assets/images/googleLogo.png"),
       imageAlt: "Google",
       footerLink: [
         {
@@ -318,7 +274,7 @@ const achievementSection = {
       title: "Techzamia",
       subtitle:
         "won the best project in the Language 'C /C ++'in the event Techzamia",
-      image: require("./assets/images/techzamia_logo.png"),
+      image: require("./assets/images/techzamiaLogo.png"),
       imageAlt: "Techzamia",
       footerLink: [
         {
@@ -335,7 +291,7 @@ const achievementSection = {
       title: "Problem Solving (Basic)",
       subtitle:
         "Completed Certifcation from HackerRank for problem solving(Basic)",
-      image: require("./assets/images/HackerRank_logo.png"),
+      image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "HackerRank",
       footerLink: [
         {
@@ -349,7 +305,7 @@ const achievementSection = {
       title: "Problem Solving (Intermediate)",
       subtitle:
         "Completed Certifcation from HackerRank for Problem Solving (Intermediate)",
-      image: require("./assets/images/HackerRank_logo.png"),
+      image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
         {
@@ -361,7 +317,7 @@ const achievementSection = {
     {
       title: "Machine Learning",
       subtitle: "Completed Certifcation from Coursera for Machine Learning",
-      image: require("./assets/images/coursera_logo.png"),
+      image: require("./assets/images/courseraLogo.png"),
       imageAlt: "Coursera",
       footerLink: [
         {
@@ -373,7 +329,7 @@ const achievementSection = {
     {
       title: "Java",
       subtitle: "Completed Certifcation from HackerRank for Java",
-      image: require("./assets/images/HackerRank_logo.png"),
+      image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
         {
@@ -385,7 +341,7 @@ const achievementSection = {
     {
       title: "Python",
       subtitle: "Completed Certifcation from HackerRank for Python",
-      image: require("./assets/images/HackerRank_logo.png"),
+      image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
         {
@@ -397,7 +353,7 @@ const achievementSection = {
     {
       title: "Amazon Web Services",
       subtitle: "Attended AWS Builders Online Series",
-      image: require("./assets/images/amazon-web-services.png"),
+      image: require("./assets/images/awsLogo.png"),
       imageAlt: "AWS",
       footerLink: [
         {
@@ -413,7 +369,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Learning and Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Learning New Things, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "false",
   blogs: [
     {
@@ -456,11 +412,9 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   virtualExperiences,
   openSource,
-  bigProjects,
   blogSection,
   achievementSection,
   contactInfo

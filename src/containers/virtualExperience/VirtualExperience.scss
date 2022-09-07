@@ -1,37 +1,34 @@
-.experience-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
-}
+@import "../../_globalColor";
 
-.experience-heading {
+.vexperience-heading {
   font-size: 56px;
   font-weight: 400;
+  line-height: normal;
+  margin: 0px;
 }
-
-.experience-container {
-  display: flex;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
+.vexperience-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
 }
-
-.experience-container > * {
-  flex: 1;
+.subTitle {
+  color: $subTitle;
 }
 
 /* Media Query */
-
 @media (max-width: 1380px) {
-  .experience-heading {
+  .vexperience-heading {
     font-size: 40px;
   }
 }
-
 @media (max-width: 768px) {
-  .experience-heading {
+  .vexperience-heading {
     font-size: 30px;
+    text-align: center;
+  }
+  .vexperience-subtitle {
+    font-size: 16px;
+    line-height: normal;
     text-align: center;
   }
 }

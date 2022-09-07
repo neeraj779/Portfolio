@@ -1,7 +1,3 @@
-/* Change colors in this file to style to your needs on a global level. 
-Certain colors are used for different and multiply types of elements. 
-For greater control over colors visit each components .scss file. */
-
 // button colors
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
@@ -35,6 +31,7 @@ $lightBackground1: #fff;
 $lightBackground2: rgb(255, 255, 255);
 $lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
+
 // dark background colors
 $darkBackground: #171c28;
 
@@ -52,6 +49,7 @@ $experienceCardBlurredDivLG: linear-gradient(
   rgba(0, 0, 0, 0.4),
   rgba(0, 0, 0, 0.2)
 );
+
 $experienceCardBannerLG: linear-gradient(
   rgba(0, 0, 0, 0.7),
   rgba(0, 0, 0, 0.5)
