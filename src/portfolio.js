@@ -15,7 +15,7 @@ const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji([
-    "Currently a Software Development Intern @ IIT Bombay, 3rd-year student at Sathyabama University, undertaking my Bachelor in Electronics and Communications Engineering. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
+    "Currently a Software Development Intern @ IIT Bombay, 3rd-year student at Sathyabama University, undertaking my Bachelor in ECE. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
   ]),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
@@ -290,23 +290,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Problem Solving (Basic)",
+      title: "HackerRank",
       subtitle:
-        "Completed Certifcation from HackerRank for problem solving(Basic)",
-      image: require("./assets/images/hackerrankLogo.png"),
-      imageAlt: "HackerRank",
-      footerLink: [
-        {
-          name: "Certifcate",
-          url: "https://www.hackerrank.com/certificates/9e703de22020"
-        }
-      ]
-    },
-
-    {
-      title: "Problem Solving (Intermediate)",
-      subtitle:
-        "Completed Certifcation from HackerRank for Problem Solving (Intermediate)",
+        "Completed Certifcation from HackerRank for Problem Solving, Java, Python.",
       image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
@@ -325,30 +311,6 @@ const achievementSection = {
         {
           name: "Certifcate",
           url: "https://coursera.org/share/424b8e213456a824507b59cb26755f80"
-        }
-      ]
-    },
-    {
-      title: "Java",
-      subtitle: "Completed Certifcation from HackerRank for Java",
-      image: require("./assets/images/hackerrankLogo.png"),
-      imageAlt: "Hackerrank",
-      footerLink: [
-        {
-          name: "Certifcate",
-          url: "https://www.hackerrank.com/certificates/ccbe3d458054"
-        }
-      ]
-    },
-    {
-      title: "Python",
-      subtitle: "Completed Certifcation from HackerRank for Python",
-      image: require("./assets/images/hackerrankLogo.png"),
-      imageAlt: "Hackerrank",
-      footerLink: [
-        {
-          name: "Certifcate",
-          url: "https://www.hackerrank.com/certificates/00a15769d2c0"
         }
       ]
     },
