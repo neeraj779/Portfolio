@@ -8,14 +8,14 @@ const splashScreen = {
 };
 
 const illustration = {
-  animated: false
+  animated: true
 };
 
 const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji([
-    "currently a 3rd-year student at Sathyabama Institute of Science and Technology, undertaking my Bachelor in Electronics and Communications Engineering. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
+    "Currently a Software Development Intern @ IIT Bombay, 3rd-year student at Sathyabama University, undertaking my Bachelor in Electronics and Communications Engineering. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
   ]),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
@@ -131,13 +131,13 @@ const workExperiences = {
       companylogo: require("./assets/images/iitbLogo.png"),
       date: "Aug 2022 - Present",
       descBullets: [
-        "Working on development and testing of new system components/services, code and design reviews",
-        "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
+        "Working on the IIT Bombay’s Project Management Website, OCR-Interface and Translation Tool.",
+        "Working on Development, Bug Fixing, Problem Solving, Testing, Adding or Updating Features"
       ],
       footerLink: [
         {
           name: "Offer letter",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/simmi_foundation_OL.jpg"
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Offer_Letter__IITB.jpg"
         }
       ]
     },
@@ -188,9 +188,11 @@ const virtualExperiences = {
       companylogo: require("./assets/images/accentureLogo.png"),
       date: "Sep 2022 - Aug 2022",
       descBullets: [
-        "Design changes to an existing architecture, Scale on-premise system infrastructure to the cloud",
-        "Security maturity assessment 2. IAM policies and permissions",
-        "Shaping the Problem. Data and privacy protection",
+        "Worked on tasks like Architecture, Programming, Testing, Security, Artificial Intelligence.",
+        "Design changes to an existing architecture,",
+        "Securing the software development lifecycle (SDLC)",
+        "Scale on-premise system infrastructure to the cloud",
+        "Scale on-premise system infrastructure to the cloud",
       ],
       footerLink: [
         {
@@ -199,7 +201,7 @@ const virtualExperiences = {
         },
         {
           name: "Project",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/accenture_certificate.jpg"
+          url: "https://github.com/neeraj779/Accenture-Nordics-Developer-Virtual-Program"
         }
       ]
     },
@@ -361,10 +363,46 @@ const achievementSection = {
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/amazon-web-services.png"
         }
       ]
+    },
+    {
+      title: "Amazon Web Services",
+      subtitle: "Attended AWS Innovate Online Conference",
+      image: require("./assets/images/awsLogo.png"),
+      imageAlt: "AWS",
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/AWS-Innovate-Online-Conference.png"
+        }
+      ]
     }
   ],
   display: true
 };
+
+const bigProjects = {
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: require("./assets/images/accentureLogo.png"),
+      projectName: "Saayahealth",
+      projectDesc: [
+        "Design changes to an existing architecture, Scale on-premise system infrastructure to the cloud",
+        "Security maturity assessment 2. IAM policies and permissions",
+        "Shaping the Problem. Data and privacy protection",
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://saayahealth.com/"
+        }
+      ]
+    },
+  ],
+  display: false
+};
+
 
 const blogSection = {
   title: "Blogs",
@@ -415,6 +453,7 @@ export {
   workExperiences,
   virtualExperiences,
   openSource,
+  bigProjects,
   blogSection,
   achievementSection,
   contactInfo

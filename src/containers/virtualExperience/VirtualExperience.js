@@ -21,7 +21,7 @@ export default function VirtualExperience() {
                       : "headingvexperience-heading"
                   }
                 >
-                  Big Projects
+                  Extracurricular Activities
                 </h1>
                 <p
                   className={
@@ -30,8 +30,7 @@ export default function VirtualExperience() {
                       : "subTitle vexperience-subtitle"
                   }
                 >
-                  some companies that i have completed online virtual experience
-                  program with are listed below.
+                  some companies Virtual Experience Program i have been a part of !
                 </p>
               </div>
               <div className="experience-cards-div">
