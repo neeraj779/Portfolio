@@ -15,7 +15,7 @@ const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji([
-    "Currently a Software Development Intern @ IIT Bombay, 3rd-year student at Sathyabama University, undertaking my Bachelor in ECE. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
+    "Software Development Intern @ IIT Bombay, 3rd-year student at Sathyabama University, undertaking my Bachelor in ECE. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
   ]),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
