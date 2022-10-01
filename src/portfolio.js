@@ -275,7 +275,7 @@ const achievementSection = {
     {
       title: "Techzamia",
       subtitle:
-        "won the best project in the Language 'C /C ++'in the event Techzamia",
+        "Won the Best Project in Language C/C++ in the Event Techzamia.",
       image: require("./assets/images/techzamiaLogo.png"),
       imageAlt: "Techzamia",
       footerLink: [
@@ -292,7 +292,7 @@ const achievementSection = {
     {
       title: "HackerRank",
       subtitle:
-        "Completed Certifcation from HackerRank for Problem Solving, Java, Python.",
+        "Completed Certification from HackerRank for Problem Solving, Java, Python.",
       image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
@@ -304,7 +304,7 @@ const achievementSection = {
     },
     {
       title: "Machine Learning",
-      subtitle: "Completed Certifcation from Coursera for Machine Learning",
+      subtitle: "Completed Certification from Coursera for Machine Learning",
       image: require("./assets/images/courseraLogo.png"),
       imageAlt: "Coursera",
       footerLink: [
