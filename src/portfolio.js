@@ -129,7 +129,7 @@ const workExperiences = {
       role: "Software Development Intern",
       company: "IIT Bombay",
       companylogo: require("./assets/images/iitbLogo.png"),
-      date: "Aug 2022 - Present",
+      date: "Sep 2022 - Present",
       descBullets: [
         "Working on the IIT Bombay’s Project Management Website, OCR-Interface and Translation Tool.",
         "Working on Development, Bug Fixing, Problem Solving, Testing, Adding or Updating Features"

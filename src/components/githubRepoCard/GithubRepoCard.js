@@ -67,7 +67,7 @@ export default function GithubRepoCard({repo, isDark}) {
               </span>
             </div>
             <div className="repo-right-stat">
-              <p>{repo.node.diskUsage} KB</p>
+              <p>{repo.node.diskUsage}</p>
             </div>
           </div>
         </div>
