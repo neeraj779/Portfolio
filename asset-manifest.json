@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2a76aa2.chunk.css",
+    "main.js": "/static/js/main.20bc7665.chunk.js",
+    "main.js.map": "/static/js/main.20bc7665.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.53ea91c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.53ea91c0.js.map",
+    "static/js/2.49611ab0.chunk.js": "/static/js/2.49611ab0.chunk.js",
+    "static/js/2.49611ab0.chunk.js.map": "/static/js/2.49611ab0.chunk.js.map",
+    "static/css/3.39934f7b.chunk.css": "/static/css/3.39934f7b.chunk.css",
+    "static/js/3.d1ccd57e.chunk.js": "/static/js/3.d1ccd57e.chunk.js",
+    "static/js/3.d1ccd57e.chunk.js.map": "/static/js/3.d1ccd57e.chunk.js.map",
+    "static/css/4.060ca3b6.chunk.css": "/static/css/4.060ca3b6.chunk.css",
+    "static/js/4.3698f718.chunk.js": "/static/js/4.3698f718.chunk.js",
+    "static/js/4.3698f718.chunk.js.map": "/static/js/4.3698f718.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2f30454adf63cb96c92fe7f7ad3ed605.js": "/precache-manifest.2f30454adf63cb96c92fe7f7ad3ed605.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.39934f7b.chunk.css.map": "/static/css/3.39934f7b.chunk.css.map",
+    "static/css/4.060ca3b6.chunk.css.map": "/static/css/4.060ca3b6.chunk.css.map",
+    "static/css/main.d2a76aa2.chunk.css.map": "/static/css/main.d2a76aa2.chunk.css.map",
+    "static/js/2.49611ab0.chunk.js.LICENSE.txt": "/static/js/2.49611ab0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/accentureLogo.png": "/static/media/accentureLogo.31c57ad6.png",
+    "static/media/awsLogo.png": "/static/media/awsLogo.76aa930b.png",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/gbsssLogo.jpg": "/static/media/gbsssLogo.467469fd.jpg",
+    "static/media/goldmanSachsLogo.png": "/static/media/goldmanSachsLogo.36f0fb30.png",
+    "static/media/googleLogo.png": "/static/media/googleLogo.7a295909.png",
+    "static/media/jpMorganLogo.png": "/static/media/jpMorganLogo.cb0db985.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/simmiLogo.png": "/static/media/simmiLogo.c8cd68e7.png",
+    "static/media/techzamiaLogo.png": "/static/media/techzamiaLogo.483b60ef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53ea91c0.js",
+    "static/js/2.49611ab0.chunk.js",
+    "static/css/main.d2a76aa2.chunk.css",
+    "static/js/main.20bc7665.chunk.js"
+  ]
+}
