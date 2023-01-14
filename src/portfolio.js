@@ -74,6 +74,10 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
       skillName: "Bootstap",
       fontAwesomeClassname: "fa-brands fa-bootstrap"
     },
@@ -131,13 +135,14 @@ const workExperiences = {
       companylogo: require("./assets/images/iitbLogo.png"),
       date: "Sep 2022 - Present",
       descBullets: [
-        "Working on the IIT Bombay’s Project Management Website, OCR-Interface and Translation Tool.",
-        "Working on Development, Bug Fixing, Problem Solving, Testing, Adding or Updating Features"
+        "Working on development and maintenance of the IIT Bombay's LEAP-OCR and Translation Tool Website.",
+        "Involved in development, deployment, bug fixing, problem solving, testing, asynchronous tasks and adding or updating features.",
+        "🔗 Link: udaaniitb.aicte-india.org/udaan, pepmiitb.jio.com/leap-ocr"
       ],
       footerLink: [
         {
           name: "Offer letter",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Offer_Letter__IITB.jpg"
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Offer_Letter_IITB.jpg"
         }
       ]
     },
@@ -146,28 +151,37 @@ const workExperiences = {
       role: "Backend Development Intern",
       company: "SIMMI Foundation",
       companylogo: require("./assets/images/simmiLogo.png"),
-      date: "Aug 2022 - Present",
+      date: "Aug 2022 - Nov 2022",
       descBullets: [
-        "Working on development and testing of new system components/services, code and design reviews",
-        "Working on programming the backend for a website as Django as backend and React as front end, integrating using Django, Rest API"
+        "Worked on development and testing of new system components/services.",
+        "Conducted code and design reviews to ensure quality and reliability of systems.",
+        "Programmed backend of website using Django.",
+        "Integrated backend and frontend using Django Rest API."
       ],
       footerLink: [
         {
-          name: "Offer letter",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/simmi_foundation_OL.jpg"
+          name: "Certificate",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/certificate-simmi.png"
+        },
+        {
+          name: "LOR",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Neeraj_LOR.jpg"
+        },
+        {
+          name: "Appreciation Letter",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Appreciation-certificate-simmi.png"
         }
       ]
     },
-    
+
     {
       role: "Subject Matter Expert (SME)",
       company: "Chegg",
       companylogo: require("./assets/images/cheggLogo.png"),
       date: "Oct 2021 - Nov 2021",
       descBullets: [
-        "I was working as a Subject Matter Expert in Computer Science",
-        "Solved approximately 100+ questions related to Data Structures and Algorithms and CS Subjects asked by students all across the globe.",
-        "Got around 50+ upvotes for answers from students."
+        "Worked as a Subject Matter Expert in Computer Science.",
+        "Solved approximately 50+ questions related to Data Structures and Algorithms and CS Subjects asked by students all across the globe."
       ],
       footerLink: [
         {
@@ -192,7 +206,7 @@ const virtualExperiences = {
         "Design changes to an existing architecture,",
         "Securing the software development lifecycle (SDLC)",
         "Scale on-premise system infrastructure to the cloud",
-        "Scale on-premise system infrastructure to the cloud",
+        "Scale on-premise system infrastructure to the cloud"
       ],
       footerLink: [
         {
@@ -262,13 +276,13 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Google Kickstart 2022",
-      subtitle: "Global Rank 4888/14K in Google Kickstart Round D’22",
+      subtitle: "Global Rank 3602 in Google Kickstart Round H’22",
       image: require("./assets/images/googleLogo.png"),
       imageAlt: "Google",
       footerLink: [
         {
           name: "Certifcate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/kickstar'22.jpg"
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/00000000008caba4.jpg"
         }
       ]
     },
@@ -292,7 +306,7 @@ const achievementSection = {
     {
       title: "HackerRank",
       subtitle:
-        "Completed Certification from HackerRank for Problem Solving, Java, Python.",
+        "Completed Certifications from HackerRank for Problem Solving, Java, Python.",
       image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
@@ -352,19 +366,18 @@ const bigProjects = {
       projectDesc: [
         "Design changes to an existing architecture, Scale on-premise system infrastructure to the cloud",
         "Security maturity assessment 2. IAM policies and permissions",
-        "Shaping the Problem. Data and privacy protection",
+        "Shaping the Problem. Data and privacy protection"
       ],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "",
+          url: ""
         }
       ]
-    },
+    }
   ],
   display: false
 };
-
 
 const blogSection = {
   title: "Blogs",
