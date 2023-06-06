@@ -4,7 +4,7 @@ import splashAnimation from "./assets/lottie/splashAnimation";
 const splashScreen = {
   enabled: true,
   animation: splashAnimation,
-  duration: 2100
+  duration: 2000
 };
 
 const illustration = {
@@ -15,7 +15,7 @@ const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji([
-    "Software Development Intern @ IIT Bombay, 3rd-year student at Satyabama Institute of Science and Technology, undertaking my Bachelor in ECE. Love to explore how things work behind the scenes in software & applications. Always up for a conversation about new technologies and exciting projects. Happy reading 🍻"
+    "Software Development Intern at IIT Bombay, currently in my final year at Sathyabama Institute of Science and Technology pursuing a Bachelor's degree in ECE. I have a deep interest in delving into the inner workings of software and applications. I'm always enthusiastic about discussing new technologies and engaging in exciting projects. Happy reading 🍻"
   ]),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
