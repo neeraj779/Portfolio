@@ -15,7 +15,7 @@ const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji([
-    "Software Development Intern at IIT Bombay, currently in my final year at Sathyabama Institute of Science and Technology pursuing a Bachelor's degree in ECE. I have a deep interest in delving into the inner workings of software and applications. I'm always enthusiastic about discussing new technologies and engaging in exciting projects. Happy reading 🍻"
+    "Former Software Development Intern @ IIT Bombay, currently in my final year at Sathyabama Institute of Science and Technology pursuing a Bachelor's degree in ECE. I'm really enthusiastic about diving into the complex realm of software and applications. I'm always excited to learn about the latest technologies and get involved in interesting projects. Happy reading 🍻"
   ]),
   resumeLink:
     "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
@@ -114,7 +114,7 @@ const educationInfo = {
       schoolName: "Sathyabama University",
       logo: require("./assets/images/sistLogo.png"),
       subHeader: "B.E. in Electronics and Communications Engineering",
-      duration: "2020 - Present | Chennai, India"
+      duration: "2020 - 2024 | Chennai, India"
     },
 
     {
@@ -135,14 +135,18 @@ const workExperiences = {
       companylogo: require("./assets/images/iitbLogo.png"),
       date: "Sep 2022 - Present",
       descBullets: [
-        "Working on development and maintenance of the IIT Bombay's LEAP-OCR and Translation Tool Website.",
-        "Involved in development, deployment, bug fixing, problem solving, testing, asynchronous tasks and adding or updating features.",
-        "🔗 Link: udaaniitb.aicte-india.org/udaan, pepmiitb.jio.com/leap-ocr"
+        "Developed IIT Bombay's Leap OCR Tool and Udaan Translation Tool, benefiting 500+ users in India and abroad for document OCR and translation.",
+        "Managed a team of 5 developers, collaborated with 4 teams, and oversaw development, deployment, problem-solving, testing, and design.",
+        "Improved reliability, database management, implemented async tasks, web sockets, and enhanced security mechanisms."
       ],
       footerLink: [
         {
-          name: "Offer letter",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Offer_Letter_IITB.jpg"
+          name: "Letter of Recommendation",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/LOR_IITB.jpg"
+        },
+        {
+          name: "Letter of completion",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/LoC_IITB.jpg"
         }
       ]
     },
@@ -160,16 +164,16 @@ const workExperiences = {
       ],
       footerLink: [
         {
-          name: "Certificate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/certificate-simmi.png"
-        },
-        {
-          name: "LOR",
+          name: "Letter of Recommendation",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Neeraj_LOR.jpg"
         },
         {
-          name: "Appreciation Letter",
+          name: "Certificate of Appreciation",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Appreciation-certificate-simmi.png"
+        },
+        {
+          name: "Certificate of Completion",
+          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/certificate-simmi.png"
         }
       ]
     },
@@ -286,6 +290,7 @@ const achievementSection = {
         }
       ]
     },
+
     {
       title: "Techzamia",
       subtitle:
@@ -304,9 +309,22 @@ const achievementSection = {
       ]
     },
     {
+      title: "NPTEL",
+      subtitle:
+        "Completed Certification from NPTEL for Data Structures and Algorithms",
+      image: require("./assets/images/nptel.png"),
+      imageAlt: "AWS",
+      footerLink: [
+        {
+          name: "Certifcate",
+          url: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS92S6447218710069847"
+        }
+      ]
+    },
+    {
       title: "HackerRank",
       subtitle:
-        "Completed Certifications from HackerRank for Problem Solving, Java, Python.",
+        "Completed Certifications from HackerRank for Problem Solving, Python, SQL, Java",
       image: require("./assets/images/hackerrankLogo.png"),
       imageAlt: "Hackerrank",
       footerLink: [
@@ -329,26 +347,14 @@ const achievementSection = {
       ]
     },
     {
-      title: "Amazon Web Services",
-      subtitle: "Attended AWS Builders Online Series",
-      image: require("./assets/images/awsLogo.png"),
+      title: "Eduonix",
+      subtitle: "Completed Certification from Eduonix for Software Testing",
+      image: require("./assets/images/eduonix.png"),
       imageAlt: "AWS",
       footerLink: [
         {
           name: "Certifcate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/amazon-web-services.png"
-        }
-      ]
-    },
-    {
-      title: "Amazon Web Services",
-      subtitle: "Attended AWS Innovate Online Conference",
-      image: require("./assets/images/awsLogo.png"),
-      imageAlt: "AWS",
-      footerLink: [
-        {
-          name: "Certifcate",
-          url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/AWS-Innovate-Online-Conference.png"
+          url: "https://www.eduonix.com/certificate/c9f6bfaf7a"
         }
       ]
     }
