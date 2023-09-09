@@ -75,7 +75,6 @@
 }
 
 /* Hover Transition */
-.twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,
@@ -88,6 +87,10 @@
 .kaggle i:hover,
 .medium i:hover {
   background-color: $textColor;
+}
+
+.twitter i:hover {
+  background-color: gray;
 }
 
 /* Media Query */
