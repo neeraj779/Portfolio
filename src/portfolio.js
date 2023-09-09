@@ -164,7 +164,7 @@ const workExperiences = {
       ],
       footerLink: [
         {
-          name: "Letter of Recommendation",
+          name: "LoR",
           url: "https://neeraj-certificate.s3.ap-south-1.amazonaws.com/Neeraj_LOR.jpg"
         },
         {
