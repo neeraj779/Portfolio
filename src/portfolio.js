@@ -133,7 +133,7 @@ const workExperiences = {
       role: "Software Development Intern",
       company: "IIT Bombay",
       companylogo: require("./assets/images/iitbLogo.png"),
-      date: "Sep 2022 - Present",
+      date: "Sep 2022 - Aug 2023",
       descBullets: [
         "Developed IIT Bombay's Leap OCR Tool and Udaan Translation Tool, benefiting 500+ users in India and abroad for document OCR and translation.",
         "Managed a team of 5 developers, collaborated with 4 teams, and oversaw development, deployment, problem-solving, testing, and design.",
