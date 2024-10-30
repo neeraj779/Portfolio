@@ -1,0 +1,162 @@
+{
+    "data": {
+        "user": {
+            "name": "Neeraj",
+            "bio": "22 | Associate Engineer @ Presidio | Ex-Software Development Intern @ IIT Bombay | 💭",
+            "isHireable": true,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/85169876?u=4caec8ee92b61ddb0afed71fe5bbd5dc47c6013a&v=4",
+            "location": "Chennai, India",
+            "pinnedItems": {
+                "totalCount": 9,
+                "edges": [
+                    {
+                        "node": {
+                            "name": "Swar",
+                            "description": "🎵 Swar | Your one-stop solution for amazing music experiences.",
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 2
+                            },
+                            "url": "https://github.com/neeraj779/Swar",
+                            "id": "R_kgDOMaHwgw",
+                            "diskUsage": "2.85 MB",
+                            "primaryLanguage": {
+                                "name": "C#",
+                                "color": "#178600"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Wordle-Clone",
+                            "description": "🔠 A Wordle Clone made using JavaScript.",
+                            "forkCount": 0,
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/Wordle-Clone",
+                            "id": "R_kgDOMWftVw",
+                            "diskUsage": "49.65 MB",
+                            "primaryLanguage": {
+                                "name": "JavaScript",
+                                "color": "#f1e05a"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Flappy Bird",
+                            "description": "🕊️ A Flappy Bird Clone made using Python and Pygame.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/FlappyBird",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNzkxNzc5MzE=",
+                            "diskUsage": "13.8 MB",
+                            "primaryLanguage": {
+                                "name": "Python",
+                                "color": "#3572A5"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Text Editor",
+                            "description": "📝 A Text Editor made using Python and Tkinter.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/TextEditor",
+                            "id": "MDEwOlJlcG9zaXRvcnkzODA1NjM3Njk=",
+                            "diskUsage": "30.3 KB",
+                            "primaryLanguage": {
+                                "name": "Python",
+                                "color": "#CAFFBF"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "News and Blogs",
+                            "description": "📰 A News and Blogs Website made using Django.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/NewsAndBlogs",
+                            "id": "R_kgDOHmHQSh",
+                            "diskUsage": "1.37 MB",
+                            "primaryLanguage": {
+                                "name": "Python, Django",
+                                "color": "#45ADA8"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Student DBMS",
+                            "description": "🤖 A Student Database Management System built using C/C++.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/Student-DBMS",
+                            "id": "R_kgDOHG36uA",
+                            "diskUsage": "2.84 MB",
+                            "primaryLanguage": {
+                                "name": "C",
+                                "color": "#F7F6FB"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Virtual Assistant",
+                            "description": "🤖 A Virtual Assistant built using Python and Pyttsx3 library.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/VirtualAssistant",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNzg2MDIwOTc=",
+                            "diskUsage": "15.1 KB",
+                            "primaryLanguage": {
+                                "name": "Python",
+                                "color": "#F67280"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Ecommerce Website",
+                            "description": "🛒 A Ecommerce Website built using Python and Django web development framework.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/EcommerceWebsite",
+                            "id": "MDEwOlJlcG9zaXRvcnkzODA1NjM3Njn=",
+                            "diskUsage": "2.94 MB",
+                            "primaryLanguage": {
+                                "name": "Python, Django",
+                                "color": "#90F1EF"
+                            }
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "Text Utils",
+                            "description": "📝 A Text Utils Website built using Django web development framework.",
+                            "stargazers": {
+                                "totalCount": 1
+                            },
+                            "url": "https://github.com/neeraj779/TextUtils",
+                            "id": "MDEwOlJlcG9zaXRvcnkzNzg2MDIwOTc=",
+                            "diskUsage": "12.6 KB",
+                            "primaryLanguage": {
+                                "name": "Python, Django",
+                                "color": "#F9D423"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
