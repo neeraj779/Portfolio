@@ -37,72 +37,35 @@ const skillsSection = {
   skills: [],
 
   softwareSkills: [
-    {
-      skillName: "C/C++",
-      fontAwesomeClassname: "fa-solid fa-c"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git"
-    },
-    {
-      skillName: "GitHub",
-      fontAwesomeClassname: "fa-brands fa-github"
-    },
-    {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
-    },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fa-brands fa-aws"
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "Bootstap",
-      fontAwesomeClassname: "fa-brands fa-bootstrap"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-
-    {
-      skillName: "figma",
-      fontAwesomeClassname: "fa-brands fa-figma"
-    }
+    {skillName: "C#"},
+    {skillName: "C/C++"},
+    {skillName: "Python"},
+    {skillName: "JavaScript"},
+    {skillName: "TypeScript"},
+    {skillName: "Node.js"},
+    {skillName: "HTML5"},
+    {skillName: "CSS3"},
+    {skillName: "React"},
+    {skillName: "FastAPI"},
+    {skillName: "Django"},
+    {skillName: "Flask"},
+    {skillName: "Bootstrap"},
+    {skillName: "Tailwind CSS"},
+    {skillName: "Git"},
+    {skillName: "GitHub"},
+    {skillName: "VS Code"},
+    {skillName: "PyCharm"},
+    {skillName: "Postman"},
+    {skillName: "Linux"},
+    {skillName: "PostgreSQL"},
+    {skillName: "MySQL"},
+    {skillName: "SQL Server"},
+    {skillName: "AWS"},
+    {skillName: "Heroku"},
+    {skillName: "Netlify"},
+    {skillName: "Vercel"},
+    {skillName: "Nginx"},
+    {skillName: "Gunicorn"}
   ],
   display: true
 };
