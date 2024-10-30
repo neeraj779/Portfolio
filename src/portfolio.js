@@ -15,10 +15,10 @@ const greeting = {
   username: "Neeraj",
   title: "Hi, I'm Neeraj",
   subTitle: emoji([
-    "Former Software Development Intern at IIT Bombay, currently in my final year at Sathyabama Institute of Science and Technology pursuing a Bachelor's degree in ECE. I am a passionate learner who is always eager to acquire new knowledge and work across various technologies and domains. I enjoy exploring emerging technologies and utilizing them to solve real-life problems. Happy reading! 🍻"
+    "Associate Engineer @ Presidio | Ex-Software Development Intern @ IIT Bombay | ECE Graduate from Sathyabama Institute of Science and Technology. Passionate about exploring the latest tech trends and transforming them into real-world solutions. Lifelong learner, endlessly curious, and driven to make an impact. Happy reading! 🍻"
   ]),
   resumeLink:
-    "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=sharing",
+    "https://drive.google.com/file/d/1DYZMkCtK8Qn_IS1EL299WoJEjzwNFde5/view?usp=drive_link",
   displayGreeting: true
 };
 
